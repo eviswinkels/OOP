@@ -28,7 +28,7 @@ public class Applicatie {
 		festival.bezoekers = 2500;
 		
 		festival.print();
-		
+		// hallo
 		p2.WatIsJouwNaam();
 		
 		String tekst = festival.printnaam();
@@ -86,10 +86,9 @@ public class Applicatie {
 		System.out.println("Vul hier je leeftijd in: "+ p3.getLeeftijd());
 		p3.setLeeftijd(scanner2.nextInt());
 		System.out.println(p3.getNaam() + "is" +p3.getLeeftijd());
-		
 		System.out.println(p3.WatIsJouwNaam());
 		}
-	
+
 
 
 }
